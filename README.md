@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# 📘 Repositório de Estudos: React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório foi criado com o objetivo de reunir meus estudos e práticas com **React** e **TypeScript**, explorando desde os fundamentos até tópicos mais avançados da biblioteca.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objetivo
 
-## Expanding the ESLint configuration
+- Praticar a sintaxe e os conceitos do **React**
+- Aprender e aplicar **TypeScript** no contexto de aplicações React
+- Criar componentes reutilizáveis e tipados
+- Compreender o uso de props, estado, hooks, tipagens genéricas, context API, entre outros
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## 📁 Estrutura do Repositório
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+O repositório pode conter:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Módulos ou pastas com exemplos isolados
+- Pequenos projetos para testar conceitos
+- Anotações e comentários explicativos no código
+
+
+## 🛠️ Tecnologias
+
+Este repositório utiliza as seguintes tecnologias:
+
+- **React** – Biblioteca JavaScript para criação de interfaces
+- **TypeScript** – Superset do JavaScript com tipagem estática
+- **Vite** – Ferramenta moderna de build e desenvolvimento
+- **TailwindCSS** *(ou CSS Modules)* – Para estilização de componentes
+
+
+## 🚧 Em constante evolução
+
+Este repositório está em construção contínua. À medida que avanço nos estudos, novas implementações e melhorias serão adicionadas.
+
+
+## 📌 Observação
+
+Este projeto **não representa um produto final**, mas sim um ambiente de aprendizado. Feedbacks e sugestões são sempre bem-vindos!
